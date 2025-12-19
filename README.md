@@ -3,6 +3,7 @@ The project allows users to generate concise summaries from either manually ente
 
 ## Overview
 ![Screenshot 2024-12-07 195453](https://github.com/user-attachments/assets/78296d7b-0ead-4664-8a4f-59cabcb4e058)
+Try the application online: [Live Demo](https://web-text-summarization.streamlit.app/)
 
 ## Installation and Setup
 1. Clone the repository:
