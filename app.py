@@ -1,5 +1,12 @@
 import streamlit as st
 from summarizer import fetch_and_clean_article, summarize_text
+import os
+import certifi
+
+# Override path certifi, permanen untuk script ini
+os.environ["SSL_CERT_FILE"] = certifi.where()
+os.environ["CURL_CA_BUNDLE"] = ""
+os.environ["REQUESTS_CA_BUNDLE"] = ""
 
 
 st.set_page_config(page_title="📜 Text Summarization App", layout="wide")
