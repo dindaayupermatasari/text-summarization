@@ -1,4 +1,4 @@
-# Text Summarization Application 📝
+# Text Summarization Application
 The project allows users to generate concise summaries from either manually entered text or web articles, with leverages advanced Natural Language Processing (NLP) by the T5 (Text-to-Text Transfer Transformer) model.
 
 ## Overview
